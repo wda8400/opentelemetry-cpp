@@ -22,7 +22,7 @@ filegroup(
 # - git submodule, see command
 #   git submodule status
 #
-
+# This file is modified due to downgrade of gRPC version from v1.48.1 to v1.46.7, for runtime linking compatible reason
 def opentelemetry_cpp_deps():
     """Loads dependencies need to compile the opentelemetry-cpp library."""
 
